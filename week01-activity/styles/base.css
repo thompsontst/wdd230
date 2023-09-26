@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:ital,wght@1,700&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #560BAD  ;
+  --secondary-color: #480CA8 ;
+  --accent1-color: #B5179E;
+  --accent2-color: #3A0CA3;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Poppins";
+  --paragraph-font: Lato, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #396E94  ;
+  --nav-link-color:white ;
+  --nav-background-color:#560BAD ;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color:#B5179E ;
+}
+  
+  body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+    font-size: 18px;
+    text-align: left;
+    }
+    
+    .container {
+        display: grid;
+        background-color: #B5179E;
+        align-items: center; 
+        grid-template-columns: 3fr 3fr;
+        grid-template-rows: 1.5fr;
+       }
+       
+       img {
+         width: 20%;
+         margin-left: 200px;
+         height:30%;
+         padding: 20px;
+
+       }
+       
+       .text {
+         font-size: 10px;
+         text-align: center;
+         margin-left: 200px;
+         
+       }
+
+    nav {
+      background: black;
+      padding: 20px;
+      grid-column: 2 / 3;
+      text-align: center;
+    }
+    
+    h2 {
+      background: white;
+      height: 100%;
+      text-align: center;
+    }
+    
+    hr {
+      height: 3px;
+      background: var(--accent1-color);
+    }
+   
+     .card {
+      background: white;
+      text-align: left;
+      padding-bottom: 20px;
+      border: 1px solid rgb(106, 106, 115);
+      grid-template-columns: 3fr 3fr;
+      grid-template-rows: 1.5fr;
+     }
+     
+    h3 {
+      background: blueviolet;
+      padding: 1rem;
+      text-align: center;
+      grid-template-columns: 1/4;
+      grid-template-rows: 2/3;
+      height: 100%
+
+     }
+    footer {
+      background: blueviolet;
+      padding: 20px;
+      text-align: center;
+      grid-template-columns: 3fr 3fr;
+      grid-template-rows: 1.5fr;
+        }
+  
