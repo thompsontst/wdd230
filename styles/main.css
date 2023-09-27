@@ -111,12 +111,13 @@ main {
 	grid-template-columns: 1fr;
 	grid-gap: 1.5rem;
 }
-    main, footer {
+    main, footer, .google-map {
         max-width: 100%;
         margin: 1rem auto;
         border: 1px solid #bbb;
         padding: 1rem;
         background-color: #e6f2ff;
+		box-shadow: 0 3px 10px 00ABF6;
 }
 section {
 	padding: .5rem;
@@ -170,7 +171,8 @@ h2 {
 }
 .google-map iframe{
     height: 300px;
-    width: 100%;
+    width: 98%;
+	box-shadow: 0 3px 10px 00ABF6;
     position: absolute;
     align-items: center;
 }
@@ -220,8 +222,10 @@ footer {
         grid-gap: 1rem;
     }
      .google-map{
+        border: 1px solid #bbb;
         max-height: 4rem;
         max-height: 20%;
-        margin: 2rem;
+		margin-right: 0.6rem;
+        margin: 0.6rem;
     }
 }
