@@ -1,7 +1,7 @@
 // copyright year
 window.weatherWidgetConfig =  window.weatherWidgetConfig || [];
 window.weatherWidgetConfig.push({
-	selector:".weatherWidget",
+	selector:"weatherWidget",
 	apiKey:"9SFAGN22N8JVJJZNBU237SNHS", //Sign up for your personal key
 	location:"Nigeria, Eket", //
 	unitGroup:"metric", 
