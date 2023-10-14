@@ -2,7 +2,7 @@
 
 :root {
     --main-color: #92bceaff;
-    --secondary-color: #fff;
+    --secondary-color: black;
     --accent-color: #7a93acff;
     --default-light: #ffffff;
     --default-dark: #171a21ff;
@@ -70,7 +70,7 @@ header > span {
     padding-bottom: 1rem;
 }
 h1 {
-    color: var(--default-light);
+    color: var(--secondary-color);
     margin-bottom: 0.75rem;
 }
 nav {
