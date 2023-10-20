@@ -30,5 +30,38 @@ section.grid {
     grid-template-columns: 1fr;
 }
 section.grid img {
+    max-width: 400px;
+}
+section.grids {
+    grid-template-columns: 1fr;
+}
+section.grids img {
+    max-width: 400px;
+}
+section.gridse {
+    grid-template-columns: 1fr;
+}
+section.gridse img {
     max-width: 300px;
+}
+
+#menu {
+	display: none; /* hide hamburger button */
+}
+
+.navigation {
+	flex-direction: row;
+}
+
+.navigation li {
+	display: block;
+	flex: 1 1 100%;
+}
+
+.stuff {
+	margin: 1rem auto;
+}
+
+#background {
+    display: none;
 }
