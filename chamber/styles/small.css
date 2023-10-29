@@ -4,7 +4,7 @@
 /* Custom properties */
 :root {
     --main-bk-color:#7e9eb5;
-    --secondary-bk-color: #fff4f4;
+    --secondary-bk-color: gainsboro;
     --main-font-color: white;
     --navbar-bk-color: black;
     --navlink-hover-color: #555555;
