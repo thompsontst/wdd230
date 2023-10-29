@@ -10,12 +10,17 @@ body {
 	align-items: center;
 	justify-content: center;
 	font-family: Acme, Arial, sans-serif;
+	border: 1px, solid, rebeccapurple;
 }
 
 h1 {
 	font-size: 1.5rem;
+	border: 2px solid, red;
 }
-
+header {
+	background-color: blue;
+	border-radius: 5%;
+}
 main {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -23,11 +28,13 @@ main {
 	background-color: #ddd;
 	display: flex;
 	flex-direction: column;
+	border-radius: 5%;
 }
 
 input,
 button {
 	padding: 0.5rem;
+	background-color: skyblue;
 }
 
 button {
@@ -36,6 +43,7 @@ button {
 
 .delete {
 	width: fit-content;
+	
 }
 
 .input {
