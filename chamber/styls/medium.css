@@ -1,0 +1,14 @@
+:root {
+    --main-color: #92bceaff;
+    --secondary-color: black;
+    --accent-color: #7a93acff;
+    --default-light: #ffffff;
+    --default-dark: #171a21ff;
+
+    --header-font: 'Exo 2', sans-serif;
+    --paragraph-font: 'Comfortaa', sans-serif;
+}
+
+body {
+    grid-template-columns: auto 90% auto;
+}

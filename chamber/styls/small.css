@@ -1,0 +1,67 @@
+:root {
+    --main-color: #92bceaff;
+    --secondary-color: black;
+    --accent-color: #7a93acff;
+    --default-light: #ffffff;
+    --default-dark: #171a21ff;
+
+    --header-font: 'Exo 2', sans-serif;
+    --paragraph-font: 'Comfortaa', sans-serif;
+}
+
+body {
+    grid-template-columns: auto 95% auto;
+}
+header {
+    box-shadow: 0 0 10px var(--default-dark);
+}
+header h1 {
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    position: static;
+}
+nav > ul {
+    grid-template-columns: 1fr;
+}
+section.grid {
+    grid-template-columns: 1fr;
+}
+section.grid img {
+    max-width: 400px;
+}
+section.grids {
+    grid-template-columns: 1fr;
+}
+section.grids img {
+    max-width: 400px;
+}
+section.gridse {
+    grid-template-columns: 1fr;
+}
+section.gridse img {
+    max-width: 300px;
+}
+
+#menu {
+	display: none; /* hide hamburger button */
+}
+
+.navigation {
+	flex-direction: row;
+}
+
+.navigation li {
+	display: block;
+	flex: 1 1 100%;
+}
+
+.stuff {
+	margin: 1rem auto;
+}
+
+#background {
+    display: none;
+}

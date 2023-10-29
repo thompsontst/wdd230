@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniekan Thompson - WDD 230 - Web Frontend Development</title>
+    <meta name = "description" content="Media Query Learning Example page">
+    <meta name="author" content="Aniekan Thompson">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="site" content="course assignment portal">
+    <meta property="og:title" content="My city outlook ">
+    <meta property="og:description" content="show casing the beauty of Akwa Ibom state Nigeria.">
+    <meta property="og:image" content="https://www.nairaland.com/6897083/beautiful-pictures-akwa-ibom-night">
+    <meta property="og:url" content="https://outravelandtour.com/top-places-of-interest-in-akwa-ibom-state/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">   
+    <link rel="icon" href="favicon.ico">
+</head>
+
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="script/index.js"></script>
+    <script src="script/loading.js"></script>
+</head>
+<body>
+
+    <header>
+
+        <div id="header-content">
+            <div id="logo-section">
+                <img src="images/logo.png" alt="logo" id="header-logo">
+                <section id="name-section">
+                    <h1>Ibom Industrial Park</h1>
+                    <h2>Chamber of Commerce</h2>
+                </section>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li class="nav-item"><a id="menu" href="#"></a></li>
+                    <li class="nav-item"><a href="./index.html">Home</a></li>
+                    <li class="nav-item"><a href="./discovery.html">Discovery</a></li>
+                    <li class="nav-item"><a href="./directory.html">Directory</a></li>
+                    <li class="nav-item"><a href="./join.html">Join</a></li>
+                    <li class="nav-item"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="social-div">
+                <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="facebook" class="social">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSGPh_mA_P4XT-GopPUmHCmgv5zwWiSLynZw&usqp=CAU" alt="linkedin" class="social">
+                </div>
+
+    </header>
+
+    <main id="home-main">
+
+        <section id="hero-section" class="home-section">
+            <h2>Hero with site name and call to action</h2>
+            <picture>
+                <source media="(min-width: 35em) and (max-width: 1000px)" srcset="images/banner800.jpg">
+                <source media="(min-width: 1000px)" srcset="images/banner1200.jpg">
+                <img src="images/banner400.jpg" alt="city image">
+            </picture>
+            
+            <button><a href="./join.html">Join the Chamber</a></button>
+        </section>
+
+        <section id="event-section" class="home-section">
+            <h2>Ribbon Cutting</h2>
+            <h3> Quilmes Local Theather</h3>
+            <p>Join us for the grand opening of our brand new local theater, Friday at 2:00. <span>more info...</span></p>
+        </section>
+
+        <section id="weather-section" class="home-section">
+            <h2>Weather</h2>
+            <div id="temperature-div">
+                <img src="" alt="">
+                <span id="temperature"></span>
+            </div>
+            <div id="weather-status"><h3></h3></div>
+            <hr>
+            <div id="weather-data">
+                <section id="wind-speed">
+                    <h4>Wind Speed: </h4><span></span>
+                </section>
+                <section id="wind-chill">
+                    <h4>Wind Chill: </h4><span></span>
+                </section>
+            </div>
+        </section>
+
+        <section id="news-section" class="home-section">
+            <h2>News Release</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales odio urna, eu consectetur sem tempor nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus justo dui. Vivamus euismod laoreet dui nec molestie. Morbi elementum libero et vestibulum ullamcorper. Proin non porta leo. Morbi sem quam, eleifend sagittis urna non, placerat tempor metus.</p>
+        </section>
+
+        <div id="spotlight-section" class="home-section">
+            
+            <div id="spotlight-container">
+                <section class="spotlight home-section">
+
+                </section>
+    
+                <section class="spotlight home-section">
+
+                </section>
+    
+                <section class="spotlight home-section">
+
+                </section>
+            </div>
+
+        </div>
+
+        <div id="join-section" class="home-section">
+            <button><a href="./join.html">Join Us!</a></button>
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div id="footer-content">
+
+            <div id="footer-top-content">
+                <img src="images/logo.png" alt="logo" id="footer-logo">
+                <h4>Ibom Industrial Chamber of Commerce</h4>
+                <p>14, IIP layout</p>
+                <p>IIP, Uyo </p>
+                <p>info@IIP.org</p>
+                <p>+234-894-345-5896</p>
+                <p>📍 Location Map</p>
+            </div>
+
+            <hr>
+
+            <div id="footer-bottom-content">
+                <div id="info">
+                    <p>© Ibom Industrial Park Chamber</p>
+                    <p><strong>Aniekan Thompson</strong></p>
+                    <p>WDD 230 Project</p>
+                </div>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

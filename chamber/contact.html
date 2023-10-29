@@ -17,6 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">   
     <link rel="icon" href="favicon.ico">
 </head>
+
+
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -52,72 +54,76 @@
                 </div>
 
     </header>
-  <section class="park">
-    <picture>
-        <img src="image/industrial park.jpg" alt="Placeholder Image">
-    </picture>
-  </section>
-    <section class=" city-park">
-      <h1><a href="#">Industrial Park</a></h1>
-      <h1><a href="#">Join the Chamber</a></h1>
-    </section>
-    <section class="grid">
-      <img src="image/ibom-layout.jpeg" alt="Ibom_industrial_city_logo">
-      <div>
-          <h2>Welcome to our Park</h2>
-          <p>
-              The industrial park offers a unique qpportunity for business to thrive.
-              It is a complete environment where all kinds of businesss transaction can be carried out.
-              Business transaction ranging from exchange of goods, services of all kind.
-          </p>
-      </div>
-  </section>
-    <section class="grid">
-      
-      <img src="image/city_business_school.jpeg" alt="Ibom_industrial_city_logo">
-      <div>
-          <h2>Introducing The City Business School</h2>
-          <p>
-            The City bussiness is a subsidiary of the Pretigios Lagos Business School MBA equips students with a thorough knowledge of 
-            the main business disciplines, analytical competencies and problem-solving 
-            capabilities in addition to strong industry engagement. 
-            The MBA also focuses on developing salient skills like critical thinking, 
-            leadership, entrepreneurship, sustainability, and social innovation.
-          </p>
-      </div>
-  </section>
-  
-<hr>
-<section class="upevents"><h2> Upcoming Events</h2></section>
 
-<section class="gridse">
-  
-  <div class="post1">  
-  <p>
+    <main id="contact-main">
 
-  Business and Sustainable Development in Nigeria Report: The Case of the Banking Industry (2023)
-   SUSTAINABILITY CENTRE
-</p>
-</div>
-<div class="post1">  
-  <p>
-    Special Visit of His Excellency 
-The Executive governor of Akwa Ibom State,
-His Excellency, Governor Umo Eno will be visiting the park 
-for an anual work through.
-</p>
-</div>
-<div class="post1">  
-  <p>
-Admission into the 2023/2024 academic session is open into the CITY Business School.
-All interested Candidates for MBA and EMBA are adviced to pick up their form at the registra office
-</p>
-</div>
-</section>
-  <footer>
-    &copy;<span id="year"></span> | Aniekan Thompson | WDD230
-  </footer>
-  <script src="script/getdates.js"></script>
+        <div id="contact-left">
+            <form action="index.html">
+
+                <h2>Contact form</h2>
+                
+                <div>
+                    <label for="name" class="contact-form-label">Name</label>
+                    <input id="name" name="name" type="text" required>    
+                </div>
+            
+                <div>
+                    <label for="email" class="contact-form-label">Email address</label>
+                    <input id="email" name="email" type="email" required>    
+                </div>
+    
+                <div>
+                    <label for="question" class="contact-form-label">Question/Concern</label>
+                    <textarea type="textarea" name="question" id="description" rows="5" placeholder="Describe your concern..." required></textarea>    
+                </div>
+
+                <button type="submit">Submit</button>
+    
+            </form>
+    
+        </div>
+
+        <div id="contact-right">
+
+            <div id="visit-us">
+                <h2>Visit us</h2>
+                <p>Our offices are open for bussiness</p>
+                <p> Meet our customer service for enquiries into our services</p>
+                <p>Office hours are Mondays to Fridays from 9:00 to 12:00 and 14:00 to 18:00</p>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15906.964492084257!2d7.930324310025208!3d4.640204295334574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1067dcdf0d8f5d93%3A0x92f27de9fb665222!2sSDP%20Road%2C%20524101%2C%20Eket%2C%20Akwa%20Ibom!5e0!3m2!1sen!2sng!4v1695790157404!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div id="footer-content">
+
+            <div id="footer-top-content">
+                <img src="images/logo.png" alt="logo" id="footer-logo">
+                <h4>Ibom Industrial Chamber of Commerce</h4>
+                <p>14, IIP layout</p>
+                <p>IIP, Uyo </p>
+                <p>info@IIP.org</p>
+                <p>+234-894-345-5896</p>
+                <p>📍 Location Map</p>
+            </div>
+
+            <hr>
+
+            <div id="footer-bottom-content">
+                <div id="info">
+                    <p>© Ibom Industrial Park Chamber</p>
+                    <p><strong>Aniekan Thompson</strong></p>
+                    <p>WDD 230 Project</p>
+                </div>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+
+    </footer>
+    
 </body>
-
 </html>
