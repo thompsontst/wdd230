@@ -3,7 +3,7 @@
 
 /* Custom properties */
 :root {
-    --main-bk-color: black;
+    --main-bk-color: darkblue;
     --secondary-bk-color: gainsboro;
     --main-font-color: white;
     --navbar-bk-color: black;
@@ -30,6 +30,21 @@ header, main, footer {
 main {
     margin: 1em;
 }
+
+ /* dark mode */
+ #dark-mode{
+    background-color: darkblue ;
+ }
+
+ 
+
+  .dark-mode {
+    background-color: #0000;
+    background: #454545 ;
+    color: white;
+    border: 1px solid blue;
+    box-sizing: 10%;
+  }
 
 header, footer {
     background-color: var(--main-bk-color);
