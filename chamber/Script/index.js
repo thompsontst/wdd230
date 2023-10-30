@@ -80,14 +80,5 @@ document.addEventListener("DOMContentLoaded", () => {
     // Check whether it's Monday or Tuesday to show banner
     const day = dateObj.getDay();
     if(day > 0 && day < 3) { 
-        // Create container for banner
-        let banner = document.createElement("section");
-        banner.classList.add("banner");
-        // Create h4 for the content
-        let bannerContent = document.createElement("h4");
-        bannerContent.innerText = "Book a space at the community hour event. this friday 1900hrs ";
-        // Append elements
-        banner.append(bannerContent);
-        document.querySelector("header").prepend(banner);
     }
 });
