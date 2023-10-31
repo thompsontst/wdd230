@@ -14,10 +14,13 @@
 
      /* dark mode */
     
- .dark-mode {
-    background: #454545 ;
-    color: white;
-  }
+     .dark-mode {
+        background-color: #0000;
+        background: #454545 ;
+        color: white;
+        border: 1px solid blue;
+        box-sizing: 10%;
+      }
 
     #weather-section {
         grid-column: 1;
